@@ -27,10 +27,11 @@ module.exports = {
     "prettier",
   ],
   rules: {
+    "no-var": "error",
     // semi: ["error", "always"],
-    quotes: ["error"],
-    "react/prop-types": ["off"],
-    "react/jsx-props-no-spreading": "off",
+    // quotes: ["error"],
+    // "react/prop-types": ["off"],
+    // "react/jsx-props-no-spreading": "off",
   },
   settings: {
     react: {
